@@ -1,0 +1,46 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# RAG generated data
+data/processed/
+data/vectorstore/
+artifacts/
+
+# Local databases / indexes
+*.db
+*.sqlite
+*.faiss
+*.index
